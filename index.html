@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111310">
+  <meta name="description" content="Personal machine learning and data projects by notanuniqueusername, with a separate collection of university mathematics coursework.">
+  <title>notanuniqueusername — Project index</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="projects.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <aside class="sidebar">
+    <a class="identity" href="#top" aria-label="Project index home"><span class="monogram">n<span>/</span>u<span class="logo-dot">.</span></span><span class="identity-name">notanuniqueusername</span></a>
+    <div class="sidebar-label">A PERSONAL COLLECTION</div>
+    <nav aria-label="Main navigation">
+      <a class="nav-link current" href="#projects"><span class="nav-icon">▦</span> Personal projects <span class="nav-count">04</span></a>
+      <a class="nav-link" href="#university"><span class="nav-icon">∑</span> University <span>↘</span></a>
+      <a class="nav-link" href="#about"><span class="nav-icon">◎</span> About the work <span>↘</span></a>
+      <a class="nav-link" href="https://github.com/notanuniqueusername"><span class="nav-icon">⌘</span> GitHub profile <span>↗</span></a>
+    </nav>
+    <div class="sidebar-bottom"><span class="tiny-label">THE THREAD THROUGH IT ALL</span><p>Understand it.<br>Build something.<br><em>Keep exploring.</em></p><button class="theme-toggle" type="button" aria-label="Switch to light theme"><span aria-hidden="true">◐</span><span id="theme-label">Light appearance</span><span aria-hidden="true">↗</span></button></div>
+  </aside>
+  <div class="page" id="top">
+    <header class="topbar"><div><span class="status-dot" aria-hidden="true"></span> INDEPENDENT PROJECTS <span class="topbar-divider">/</span> <span class="muted">PUBLIC INDEX</span></div><a href="https://github.com/notanuniqueusername?tab=repositories">Explore the source <span aria-hidden="true">↗</span></a></header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy"><div class="eyebrow"><span>01 — IDEAS INTO PRACTICE</span><span class="small-star" aria-hidden="true">✳</span></div><h1 id="hero-title">Curiosity,<br>put to <em>work.</em></h1><p>My personal projects in machine learning and data analysis. Experiments, notebooks, and the questions behind them. University coursework has its own space below.</p><a class="text-link" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-art" aria-label="Explore personal projects and university coursework">
+          <div class="art-top"><span class="tiny-label">CONNECTED BY CURIOSITY</span><span class="art-coordinate">n/u — 001</span></div>
+          <svg class="orbit-art" viewBox="0 0 360 290" aria-hidden="true"><defs><radialGradient id="halo"><stop stop-color="#c5ef70" stop-opacity=".16"/><stop offset="1" stop-color="#c5ef70" stop-opacity="0"/></radialGradient></defs><circle cx="180" cy="145" r="130" fill="url(#halo)"/><g class="orbital-lines" fill="none" stroke="currentColor"><ellipse cx="180" cy="145" rx="138" ry="47" transform="rotate(-32 180 145)"/><ellipse cx="180" cy="145" rx="138" ry="47" transform="rotate(32 180 145)"/><ellipse cx="180" cy="145" rx="47" ry="131"/></g><g class="orbit-core"><path d="M180 90 229 118 229 174 180 202 131 174 131 118Z" fill="var(--panel)" stroke="var(--accent)"/><path d="m131 118 49 28 49-28m-49 28v56m0-112v56" fill="none" stroke="var(--accent)"/><circle cx="180" cy="146" r="7" fill="var(--accent)"/></g><circle class="orbital-dot dot-a" cx="70" cy="90" r="5" fill="var(--accent)"/><circle class="orbital-dot dot-b" cx="287" cy="82" r="5" fill="var(--purple)"/><circle class="orbital-dot dot-c" cx="180" cy="274" r="5" fill="var(--orange)"/></svg>
+          <div class="discipline-buttons"><button type="button" data-jump="ml">ML / AI <span>↗</span></button><button type="button" data-jump="data">DATA <span>↗</span></button><button type="button" data-jump="university">UNIVERSITY <span>↗</span></button></div>
+        </div>
+      </section>
+      <div class="index-strip"><div><span class="strip-number">04</span><span>personal projects</span></div><div><span class="strip-number">01</span><span>university workbook</span></div><div class="strip-note"><span class="status-dot" aria-hidden="true"></span> OPEN CODE. EXPLORE THE PROCESS.</div></div>
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading"><div><div class="eyebrow">02 — MY PERSONAL PROJECTS</div><h2 id="projects-title">A little theory.<br><em>A lot of doing.</em></h2></div><p>Open an experiment. Follow the method.<br>See what came out the other side.</p></div>
+        <div class="toolbar"><div class="filters" role="group" aria-label="Filter personal projects by discipline"><button type="button" class="filter active" data-filter="all" aria-pressed="true">All projects <span>4</span></button><button type="button" class="filter" data-filter="ml" aria-pressed="false">ML / AI <span>3</span></button><button type="button" class="filter" data-filter="data" aria-pressed="false">Data <span>1</span></button></div><label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Search personal projects</span><input id="search" type="search" placeholder="Search my projects…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label></div>
+        <div class="results-bar"><span id="result-count" role="status" aria-live="polite">4 personal projects to explore</span><label class="sort-label">Sort <select id="sort"><option value="featured">Selected order</option><option value="az">Name: A–Z</option></select></label></div>
+        <div class="project-grid" id="project-grid"></div>
+        <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">∅</span><h3>No projects found.</h3><p>Try another keyword or explore the whole collection.</p><button class="pill-button" id="reset-filters" type="button">Show all projects ↗</button></div>
+        <noscript><p>The project explorer uses JavaScript. You can still <a href="https://github.com/notanuniqueusername?tab=repositories">browse the repositories on GitHub</a>.</p></noscript>
+      </section>
+      <section class="projects-section" id="university" aria-labelledby="university-title"><div class="section-heading"><div><div class="eyebrow">03 — UNIVERSITY COURSEWORK</div><h2 id="university-title" tabindex="-1">Mathematics<br><em>for university.</em></h2></div><p>A separate collection of course materials:<br>worked solutions and interactive explanations.</p></div><div class="project-grid" id="university-grid"></div><noscript><p><a href="https://github.com/notanuniqueusername/Basics_of_Mathematics_Student_Workbook_2026">Open the university workbook repository</a>.</p></noscript></section>
+      <section class="about" id="about" aria-labelledby="about-title"><div class="eyebrow">04 — ABOUT THE WORK</div><div class="about-body"><h2 id="about-title">Personal experiments.<br><em>Open to explore.</em></h2><div><p>My personal projects explore computer vision, natural language processing, and data analysis. Each repository includes the notebook and project details so you can follow the approach.</p><p class="muted">The mathematics workbook is university coursework, presented separately above. Experiment metrics in the personal project briefs are reported by their READMEs, with their evaluation context kept alongside them.</p><a class="text-link" href="https://github.com/notanuniqueusername">See my projects on GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+    </main>
+    <footer><a class="footer-name" href="#top">n/u<span>.</span></a><span>notanuniqueusername <span aria-hidden="true">/</span> Project index</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow" id="dialog-category"></span><button class="dialog-close" type="button" aria-label="Close project brief">×</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
